@@ -168,7 +168,8 @@ int main(int argc, char** argv) {
 	// Now excute on GPU
 	cl::Event KernalEx;    // make Event class object to campute time
 	queue.enqueueNDRangeKernel(mandelbrotKernel, 0, cl::NDRange(countX, countY), cl::NDRange(wgSizeX, wgSizeY), NULL, &KernalEx);   // count is no of cores, workgroup size, &KernalEx to store event times 
-
+	// 2D index space used becasue one work item for each complex value in the complex plain
+	// for 2D NDRange passing "NDRange(countX, countY)" and "NDRange(wgSizeX, wgSizeY)".....not just passing 1 argument. In exercise-1 passed only 1 argument (1 single "count" only) 
 
 
 	// Copy output data back to host
