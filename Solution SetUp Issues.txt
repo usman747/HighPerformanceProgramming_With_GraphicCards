@@ -1,0 +1,5 @@
+Solution to issues faced when setting up the environment:
+
+1-Change the file name and path in the cpp file that is inside the "src" folder
+
+2-Invert the slashes when adding path, as when you copy from windows explorer its inverted 
