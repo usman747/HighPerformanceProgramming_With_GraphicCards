@@ -20,14 +20,17 @@ float getValueGlobal(__global float* a, size_t countX, size_t countY, int i, int
 		return a[getIndexGlobal(countX, i, j)];
 }
 
+
+//1St arg Is input of sobelKernel1 func, 2nd arg Is output that will be send back
+
 __kernel void sobelKernel1(__global float* h_input, __global float* h_output) 
 {	
-	size_t countX = get_global_size(0);         //  limit of X/i direction loop in GPU
-    size_t countY = get_global_size(1);         //  limit of Y/j direction loop in GPU
+	size_t countX = get_global_size(0);         // Size Of the work item = Max Limit Of the x-dir Loop converted In GPU
+    size_t countY = get_global_size(1);        // Size Of the work item = Max Limit Of the y-dir Loop converted In GPU
 
 
-    size_t i = get_global_id(0); // Get global index of the current work item in the x-direction
-    size_t j = get_global_id(1); // Get global index of the current work item in the y-direction
+    size_t i = get_global_id(0); // Get Global index Of the current work item In the x-direction //Implementation Of Loop In the x-direction When In GPU, conversion Of the Loop iterator "i" into GPU
+    size_t j = get_global_id(1); // Get Global index Of the current work item In the y-direction //Implementation Of Loop In the y-direction When In GPU, conversion Of the Loop iterator "j" into GPU
 
 
 	float Gx = getValueGlobal(h_input, countX, countY, i-1, j-1)+2*getValueGlobal(h_input, countX, countY, i-1, j)+getValueGlobal(h_input, countX, countY, i-1, j+1)
