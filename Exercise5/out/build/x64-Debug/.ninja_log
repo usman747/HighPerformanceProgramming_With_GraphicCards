@@ -1,0 +1,24 @@
+# ninja log v5
+74	202	6759477117543299	CMakeFiles/Opencl-ex3.dir/Core/StrError.c.obj	cac2fdda3047a206
+14	980	6759477125277680	CMakeFiles/Opencl-ex3.dir/Core/Assert.cpp.obj	decc2841cb7501f9
+23	1027	6759477125666639	CMakeFiles/Opencl-ex3.dir/Core/Error.cpp.obj	6b7f5bd6f81d4d86
+68	1062	6759477126005755	CMakeFiles/Opencl-ex3.dir/Core/NumericException.cpp.obj	c32bc56ea4bcd3bd
+30	1151	6759477126955819	CMakeFiles/Opencl-ex3.dir/Core/Memory.cpp.obj	9175a9193ea9d00b
+8	1204	6759477127526097	CMakeFiles/Opencl-ex3.dir/Core/CheckedCast.cpp.obj	13687281898e51b4
+1062	2049	6759477136006187	CMakeFiles/Opencl-ex3.dir/Core/TimeSpan.cpp.obj	9b560aa525fcf046
+981	1667	6759477132106139	CMakeFiles/Opencl-ex3.dir/Core/Type.cpp.obj	e8a8048ae0be1b81
+204	2120	6759477136471250	CMakeFiles/Opencl-ex3.dir/Core/Time.cpp.obj	ceee955dada658ad
+1205	3006	6759477145602264	CMakeFiles/Opencl-ex3.dir/OpenCL/Event.cpp.obj	60a4ef0e8ec13340
+60	2281	6759477138285983	CMakeFiles/Opencl-ex3.dir/OpenCL/Device.cpp.obj	68339ecebcf74b1e
+2338	2895	6759563468461855	Opencl-ex3.exe	cc3ea4c372ec7c86
+46	2343	6759477138925663	CMakeFiles/Opencl-ex3.dir/Core/Exception.cpp.obj	a901b7975b078abc
+38	2365	6759477139145999	CMakeFiles/Opencl-ex3.dir/Core/Image.cpp.obj	11af80388b38f480
+1028	2709	6759477142612806	CMakeFiles/Opencl-ex3.dir/Core/WindowsError.cpp.obj	f5a99de799e893bb
+1151	3112	6759477146669416	CMakeFiles/Opencl-ex3.dir/OpenCL/Error.cpp.obj	9fe67f9f73bb3f6e
+1667	3259	6759477148095621	CMakeFiles/Opencl-ex3.dir/OpenCL/GetError.cpp.obj	411fd0beb453fc2a
+9	2337	6759563464222908	CMakeFiles/Opencl-ex3.dir/src/OpenCLExercise6_PrefixSum.cpp.obj	84962f87aa4fb51c
+2050	4552	6759477161020068	CMakeFiles/Opencl-ex3.dir/OpenCL/Program.cpp.obj	c5ed08c57854a3d6
+8	2088	6783881977807552	CMakeFiles/Opencl-ex3.dir/src/OpenCLExercise6_PrefixSum.cpp.obj	84962f87aa4fb51c
+2088	2553	6783881982025939	Opencl-ex3.exe	cc3ea4c372ec7c86
+7	2054	6783892308866881	CMakeFiles/Opencl-ex3.dir/src/OpenCLExercise6_PrefixSum.cpp.obj	84962f87aa4fb51c
+2054	2412	6783892312148107	Opencl-ex3.exe	cc3ea4c372ec7c86
